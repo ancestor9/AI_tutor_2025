@@ -30,6 +30,17 @@
 
 ---
 
+## 🔌 API 엔드포인트
+
+- `POST /students` : 새 학생 등록  
+- `GET /students/{student_id}` : 학생 정보 조회  
+- `POST /diagnose` : 학생 수준 진단  
+- `POST /problems` : 학생 수준에 맞는 문제 제공  
+- `POST /generate-problem` : 새로운 맞춤형 문제 생성  
+- `POST /submit-answer` : 답안 제출 및 피드백 제공  
+- `GET /status` : API 상태 확인
+
+
 ## ⚙️ 설치 및 실행
 
 ### 환경 요구사항
